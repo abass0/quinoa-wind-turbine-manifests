@@ -5,7 +5,11 @@ metadata:
   namespace: openshift-gitops
 spec:
   destination:
+<<<<<<< HEAD
     namespace: quinoa-wind-turbine
+=======
+    namespace: quinoa-app
+>>>>>>> a2a7792e7cb4c2b585190c65f0a796112ee55109
     server: https://kubernetes.default.svc
   project: default
   source:
