@@ -7,10 +7,10 @@ spec:
     - default: 1.0.0
       name: IMAGE_TAG
       type: string
-    - default: quay.io/gtavares_pessoal/quinoa-wind-turbine
+    - default: quay.io/abass0/quinoa-wind-turbine
       name: IMAGE_NAME
       type: string
-    - default: 'https://github.com/tavaresg/quinoa-wind-turbine.git'
+    - default: 'https://github.com/abass0/quinoa-wind-turbine.git'
       name: GIT_REPO
       type: string
     - default: main
@@ -116,7 +116,7 @@ spec:
         - name: GIT_REF
           value: $(params.MANIFESTS_GIT_BRANCH)
         - name: NEW_IMAGE
-          value: quay.io/gtavares_pessoal/quinoa-wind-turbine
+          value: quay.io/abass0/quinoa-wind-turbine
         - name: NEW_DIGEST
           value: $(tasks.buildah.results.IMAGE_DIGEST)
         - name: KUSTOMIZATION_PATH
