@@ -8,3 +8,5 @@ kind: Kustomization
 images:
 - digest: sha256:c84df9006e1d1e62c9ae22c62250d35b9533bf77220109c824b63f7ed0e2ade4
   name: quay.io/abass0/quinoa-wind-turbine
+- digest: sha256:518ca86aa22b01db18d1a2d7a690eeb15abf056417bfeacc8609349c9789707a
+  name: quay.io/gtavares_pessoal/quinoa-wind-turbine
